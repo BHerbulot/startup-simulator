@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.ui-button {
+  @apply py-2 px-4 flex items-center gap-2 bg-secondary hover:brightness-175 text-light-900 rounded-lg cursor-pointer;
+  height: 35px;
+  width: fit-content;
+}
